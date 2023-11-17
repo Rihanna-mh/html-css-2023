@@ -1,0 +1,140 @@
+div{
+    border:solid 10px black;
+    text-align: justify;
+}
+
+.row1{
+    background-image: url("images/banner-trans.png");
+    background-color: #d0e7e0;
+    background-size: cover;
+    background-position: center; 
+} 
+
+.intro_photo{
+    float:left;
+    margin-left: 8%;
+    margin-right: 5%;
+    margin-top: 2%;;
+    margin-bottom: 0.5%;
+}
+
+.h1_class{
+    float:left;
+    margin-top: 2%; 
+    margin-left: 2%;
+}
+
+.job_title_class{
+    height: 45px;
+    width: 140px;
+    text-align: center;
+    background-color: #1e4a21;
+    border-radius: 50%;
+    color:white;
+    padding:10px;
+}
+
+.intro_lists{
+    float:left;
+    max-width: 60%;
+    list-style-type: none;
+}
+
+@media only screen and (max-width:850px){
+    .intro_lists{
+        max-width: 95%;
+    }
+}
+
+.h2_class{
+    font-family: "Times New Roman", Times, serif;
+    font-family: 'Rubik Microbe', cursive;
+    font-size: 38px;
+    color:#c11848;
+    margin-top: 2%;
+}
+
+.row2{
+    background-color: #d0e7e0;
+}
+
+.row2-col{
+    height:600px;
+    overflow: auto;   
+}
+
+span{
+    border: solid #c11848;
+    background-color: #dedbdb;
+    box-shadow: 2px 5px;
+    border-radius: 30%;
+    color:#1e4a21;
+    margin:1%;
+    display:inline-block;
+    padding:10px
+}
+
+.date_class{
+    background-color: #64a069;
+    border-radius: 50%;
+    color:white;
+    display:inline-block;
+    padding:10px;
+}
+
+.row3{
+    background-color: #d0e7e0;
+}
+
+.row3col1{
+    padding:0;
+    text-indent: 10px; 
+}
+
+.row3col2{
+    padding:0;
+    text-indent: 10px; 
+}
+
+.edu{
+    border-bottom: black;
+    border-left: none;
+    border-right: none;
+    border-top:none;
+    overflow: auto;
+}
+
+.cert{
+    border-right: none;
+    border-left:none;
+    border-bottom: none;
+}
+
+.hob{
+    border-bottom: black;
+    border-left: none;
+    border-right: none;
+    border-top:none;
+    overflow: auto;
+}
+
+.hobbies_names{
+    display: inline-block;
+    margin-right:5%;
+}
+
+.cont{
+    border-right: none;
+    border-left:none;
+    border-bottom: none;
+}
+
+.contact_list_items{
+    display: inline-block;
+    margin-right:5%;
+}
+
+.more_details{
+    display: none;
+}
+
